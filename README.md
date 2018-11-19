@@ -18,5 +18,6 @@ Final output file is tidydata.txt
 This repo contains:
 
 run_analysis.R, an R script, which downloads the source data archive and creates the final dataset.
+
 CodeBook.md, listing and description of variables in data.
 tidydata.txt, the final data, which can be read into r with the code below: read.table("tidydata.txt", sep="\t", header = TRUE)
