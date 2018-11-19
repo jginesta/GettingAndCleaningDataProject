@@ -14,3 +14,9 @@ Then follows the assignment steps:
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Final output file is tidydata.txt
+
+This repo contains:
+
+run_analysis.R, an R script, which downloads the source data archive and creates the final dataset.
+CodeBook.md, listing and description of variables in data.
+tidydata.txt, the final data, which can be read into r with the code below: read.table("tidydata.txt", sep="\t", header = TRUE)
